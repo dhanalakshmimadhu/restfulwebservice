@@ -1,0 +1,16 @@
+RestFull web services:
+1) jersey
+2) jax-rs(internally uses jersey) 
+uses java 5 annotation
+
+http://localhost:6070/RestfullWeb/userInfo/
+
+{
+"age": 34,
+"id": "5",
+"name": "lakshmi12"
+}
+
+create maven project add dependency for jax-rs and jersey
+run on tomcat server
+
